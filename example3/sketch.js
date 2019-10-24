@@ -24,7 +24,7 @@ n+=incr;
 for(let i = 0; i<13; i++){
 
   stroke (random(0,255),150,200,30);
-line(x[i]+pos,y[i],x[i]+pos,y[i]);
+line(x[i]+pos,y[i]+random(0,100),x[i]+pos,y[i]+random(0,50));
 
 }
 
